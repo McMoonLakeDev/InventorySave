@@ -1,0 +1,35 @@
+# InventorySave 物品栏保存插件
+# 作者：Month_Light
+
+# 插件版本号
+version: 1.0
+
+# 插件前缀
+Prefix: '&3MoonLake &7>> &f'
+
+# 消息功能
+Message:
+
+  # 是否开启
+  Enable: true
+
+  # 当无法保存提示的消息
+  NoSave: '你由于死亡背包以及经验全部遗失.'
+
+  # 当保存成功提示的消息
+  YesSave: '你由于死亡背包以及经验全部保存.'
+
+# 拥有 moonlake.inventorysave.inv 会保存背包
+# 拥有 moonlake.inventorysave.lvl 会保存经验值
+
+# 默认保存的世界列表
+DefaultSaveWorlds:
+
+  - 'world'
+
+# 如果拥有权限保存的世界列表
+InventorySaveWorlds:
+
+  - 'world'
+  - 'world_nether'
+  - 'world_the_end'
